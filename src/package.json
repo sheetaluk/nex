@@ -15,6 +15,10 @@
     "autocomplete",
     "example"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sheetaluk/nex.git"
+  },
   "author": "Sheetal Umesh Kumar. A.K.A Sheetal the invincible",
   "license": "ISC"
 }
