@@ -1,10 +1,10 @@
 # NEX - An Autocomplete Experiment
-This is a basic implementation of an autocomplete functionality. This little app allows the user to select a username by click or by keyboard navigation, from a list of autocomplete options.
+This is a basic implementation of an autocomplete widget. This little app allows the user to select a username, by mouse click or by keyboard navigation, from a list of autocomplete options.
 A username is identified as a word starting with '@'.
 
 ## To run it locally
 Make sure you have node and npm installed!
-If you don't, try:
+If you don't, try
 [nodejs.org](http://nodejs.org)
 
 ```
@@ -26,7 +26,7 @@ Hello there, @lil
 * Safari
 
 ## Things to think about
-At the moment a username starts with @, followed by a letter and then one or more occurances of letters and numbers and no punctuation and special characters. How would we want to address cases like: 
+At the moment a username starts with @, followed by a letter and then one or more occurances of letters and numbers and no punctuation and special characters. We should think about how to address cases like: 
 * Hello.@user
 * Hello(@user)
 * "@user"
