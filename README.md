@@ -20,11 +20,16 @@ Example:
 Hello there, @lil
 ```
 
+## Tested on
+* Chrome
+* Firefox
+* Safari
+
 ## Things to think about
 At the moment a username starts with @, followed by a letter and then one or more occurances of letters and numbers and no punctuation and special characters. How would we want to address cases like: 
 * Hello.@user
 * Hello(@user)
 * "@user"
 
-### Here is a screenshot
+## Here is a screenshot
 ![Alt text](https://cloud.githubusercontent.com/assets/502186/12698482/69e45cd6-c76b-11e5-86ae-1019de82e183.png)
