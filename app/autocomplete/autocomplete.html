@@ -1,0 +1,30 @@
+<div class="header">
+  <h1>NEX</h1>
+</div>
+<form class="comment-form" key-trap>
+  <div
+    class="comment-box rich-editor"
+    name="comment"
+    id="comment-box">
+    <textarea ng-model="userComment" spellcheck="true" placeholder="Write a comment..." class="form-control" rows="3" focus="toFocus"></textarea>
+  </div>
+  <div class="dropdown autocomplete-results">
+    <ul class="autocomplete-items" ng-show="showSuggestions">
+      <li ng-repeat="item in items" ng-click="select(item.username)" ng-class="{'highlight':$index==focusIndex}">
+        <a>
+          <img
+            class="avatar size32"
+            ng-src="{{item.avatar_url}}">
+          <span class="user-info">
+            <span class="user-full-name">
+              {{item.name}}
+            </span>
+            <span class="user-id">
+              @{{item.username}}
+            </span>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</form>
