@@ -20,7 +20,7 @@ Example:
 Hello there, @lil
 ```
 
-### Things to think about
+## Things to think about
 At the moment a username starts with @, followed by a letter and then one or more occurances of letters and numbers and no punctuation and special characters. How would we want to address cases like: 
 * Hello.@user
 * Hello(@user)
