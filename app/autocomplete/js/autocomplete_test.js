@@ -9,7 +9,7 @@
     describe('autocomplete controller', function(){
       var autocompleteCtrl, scope, AutocompleteService, httpBackend, data, promise, spy;
 
-      var promise = {
+      promise = {
         then: function() {}
       };
 

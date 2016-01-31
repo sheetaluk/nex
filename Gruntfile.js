@@ -17,8 +17,9 @@ module.exports = function(grunt) {
 
     jshint: {
       files: ['Gruntfile.js',
+        'karma.conf.js',
         'app/app.js',
-        'app/autocomplete/js/*.js'],
+        'app/autocomplete/**/*.js'],
       options: {
         globals: {
           angular: true,
