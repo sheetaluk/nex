@@ -20,16 +20,29 @@ Example:
 Hello there, @lil
 ```
 
+## To run unit tests
+```
+npm test
+```
+
 ## Tested on
 * Chrome
 * Firefox
 * Safari
 
-## Things to think about
+## For the future
 At the moment a username starts with @, followed by a letter and then one or more occurances of letters and numbers and no punctuation and special characters. We should think about how to address cases like: 
 * Hello.@user
 * Hello(@user)
 * "@user"
+
+It might well be the case that we need to expand the autocomplete widget to different datasets with varying patterns of input representing autocomplete candidates. To this end, input specific behavior can be parametrized and injected into the program. That is, datasets can be paired with regex and an instance of the widget can be created on the fly .
+
+The application would benefit from more unit tests and end to end tests.
+
+For better UX, usernames in the UI can be highlighted.
+
+If this were a growing project, more thought could be put into directory layout.
 
 ## Here is a screenshot
 ![Alt text](https://cloud.githubusercontent.com/assets/502186/12698482/69e45cd6-c76b-11e5-86ae-1019de82e183.png)
