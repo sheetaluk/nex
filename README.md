@@ -42,7 +42,7 @@ The application would benefit from more unit tests and end to end tests.
 
 For better UX, usernames in the UI can be highlighted.
 
-If this were a growing project, more thought needs to be put into directory layout.
+If this were a growing project, more thought could be put into directory layout.
 
 ## Here is a screenshot
 ![Alt text](https://cloud.githubusercontent.com/assets/502186/12698482/69e45cd6-c76b-11e5-86ae-1019de82e183.png)
