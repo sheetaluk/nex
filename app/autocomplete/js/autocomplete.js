@@ -170,9 +170,7 @@
           changedWord =
             getFirstChangedWord(
               previousUserComment, currentUserComment);
-
           if(changedWord.word && isUsername(changedWord.word) && !isUsernameComplete) {
-
             AutocompleteService.getSuggestions(changedWord.word).then(function(data) {
               if(data.length > 0) {
                 showAutocompleteResults(data);
