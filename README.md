@@ -42,6 +42,8 @@ The application would benefit from more unit tests and end to end tests.
 
 For better UX, usernames in the UI can be highlighted.
 
+Consolidate dev tasks into dev and prod tasks in Grunt
+
 If this were a growing project, more thought could be put into directory layout.
 
 ## Here is a screenshot
